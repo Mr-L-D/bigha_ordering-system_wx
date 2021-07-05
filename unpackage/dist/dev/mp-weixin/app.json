@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/homePage/homePage",
+    "pages/orderFoods/orderFoods",
+    "pages/orders/orders",
+    "pages/me/me"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "大哈餐饮点餐系统",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#1257A5",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/homePage/homePage",
+        "iconPath": "static/images/tabBar/homePage.png",
+        "selectedIconPath": "static/images/tabBar/homePage-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/orderFoods/orderFoods",
+        "iconPath": "static/images/tabBar/orderFoods.png",
+        "selectedIconPath": "static/images/tabBar/orderFoods-active.png",
+        "text": "点餐"
+      },
+      {
+        "pagePath": "pages/orders/orders",
+        "iconPath": "static/images/tabBar/orders.png",
+        "selectedIconPath": "static/images/tabBar/orders-active.png",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "static/images/tabBar/me.png",
+        "selectedIconPath": "static/images/tabBar/me-active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
